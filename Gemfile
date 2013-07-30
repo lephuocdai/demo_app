@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -24,5 +25,5 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'rb-readline'
+gem 'rb-readline', '~> 0.4.2'
 
